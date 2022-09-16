@@ -1,0 +1,53 @@
+/* DEFAULT  */
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+/* MAIN BLOCKS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UTILITY  */
+
+.white-text{
+
+ color: white;   
+}
+
+.blue-text{
+
+color: blue;
+
+}
+
+.small-text{
+
+font-size: small;
+
+}
+
+.large-text{
+
+font-size: large;
+
+}
