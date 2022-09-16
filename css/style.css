@@ -41,7 +41,7 @@ header{
 
 background-color: rgb(1, 80, 226);
 width: 100%; 
-height: 15vh;
+height: 20vh;
 display: flex;
 align-items: center;
 padding-left: 1rem;
@@ -83,6 +83,14 @@ margin-left: 0.8rem;
 
 /* Setting Main Section  */
 
+main{
+
+height: 130vh;
+
+
+}
+
+
 
 .container {
 
@@ -90,7 +98,7 @@ width: 80%;
 height: 100vh;
 margin: 0 auto;
 position: relative;
-top: 15vh;
+top: 25vh;
 text-align: center;
 
 }
@@ -140,11 +148,78 @@ background-color: var(--blue);
 
 .img-central{
 
-padding-left: 12%;
-padding-right: 12%;
+padding-left: 5%;
+padding-right: 5%;
 margin-top: 15px;
 
 }
+
+
+/* SETTING FOOTER */
+
+.kit-java{
+
+width: 100%;
+background-color: gray;
+margin-top: 25px;
+padding-left: 20px;
+padding-top: 25px;
+padding-bottom: 25px;
+
+}
+
+.kit-java .fa-java:before{
+
+padding-left: 4px;
+margin-bottom: 10px;
+
+}
+
+.kit-java h3{
+
+padding-bottom: 10px;
+
+
+}
+
+.container-2{
+
+width: 70%;
+text-align: center;
+padding-top: 20px;
+margin: auto;
+
+}
+
+.footer-link{
+
+display: flex;
+align-content: flex-start;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.central-item{
+
+justify-content: center;
+column-gap: 20px; 
+}
+
+
+.fa-copyright::before{
+
+display: inline-block;
+transform: scale(0.7);
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -247,11 +322,30 @@ margin-top: 25px;
 }
 
 
+.mg-right-10{
 
+
+margin-right: 10px;;
+
+
+}
 
 .mg-cont{
 
 padding-right: 25%;
  padding-left: 25%;
+
+}
+
+.border-white{
+
+border: 1px solid white;
+
+}
+
+.size-13{
+
+font-size: 13px;
+
 
 }
